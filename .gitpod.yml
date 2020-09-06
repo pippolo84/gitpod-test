@@ -1,0 +1,6 @@
+tasks:
+  - init: >
+      go get -v ./... &&
+      go build -o app-test
+    command: >
+      ./app-test
