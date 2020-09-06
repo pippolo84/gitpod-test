@@ -4,3 +4,6 @@ tasks:
       go build -o app-test
     command: >
       ./app-test
+github:
+  prebuilds:
+    addComment: true
